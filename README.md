@@ -17,7 +17,7 @@ There are 2 ways of running a quarkus application, native and non-native, in the
 * Running the application <br>* to run it locally you just need to select the Quarkus-POC configuration and run it, can be tested [here](http://localhost:8080/starting-with-quarkus/login?username=user1&password=password2) 
 <br>* to run it on docker you first need to make the docker image using this command: " docker build -f src/main/docker/Dockerfile.jvm -t quarkus-quickstart/getting-started . " <br> ** after building the image it needs to be started: "  docker run -i --rm -p 8080:8080 quarkus/code-with-quarkus-jvm  " after that it can be tested [here](http://localhost:8080/starting-with-quarkus/login?username=user1&password=password2)
 * Native: please follow the instructions on their [website](https://quarkus.io/guides/building-native-image) on how to run the application natively for each type of OS
-<br>
+
 ### Key Features
 1.	Lightweight and Fast: Quarkus offers lightning-fast startup times and low memory footprint through its innovative compile-time bootstrapping and GraalVM-native binary compilation techniques. <br><br>
 2.	Developer-Friendly: Quarkus supports familiar APIs from Java EE, Eclipse MicroProfile, and Spring, allowing developers to quickly adapt and leverage their existing skills. <br><br>
